@@ -1,0 +1,15 @@
+# Python 3.11-3.13. Versions below are the ones used to produce the results.
+# The full pipeline (retrieval + generation) additionally needs faiss,
+# sentence-transformers and a running Ollama server.
+
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.15.0
+matplotlib==3.9.2
+scikit-learn==1.6.0
+faiss-cpu==1.14.2
+sentence-transformers==5.5.1
+requests==2.32.3
+
+# External (not pip):
+#   Ollama  https://ollama.com   with the model:  ollama pull qwen2.5:3b
